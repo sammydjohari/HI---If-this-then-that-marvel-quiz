@@ -1,0 +1,35 @@
+@import "variables", "gamepage", "landingpage", "scorepage";
+
+//General styling
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: digitalstrip;
+  font-size: 18px;
+  @media screen and (max-width: 481px) {
+    font-size: 14px;
+  }
+  
+  p {
+    color: $white;
+  }
+  h1 {
+    color: $white;
+    text-align: center;
+    font-family: $palooka;
+    font-size: 70px;
+    text-shadow: -6px 6px $black;
+  }
+  h2 {
+    color: $white;
+  }
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  #main {
+    width: 100vw;
+    height: 100vh;
+  }
+}
